@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stie</title>
+    <link rel="shortcut icon" href="imagens/pngegg.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>  
+    <header> 
+        <div class="img-container">
+        <img src="imagens/transparent-text-line-technology-diagram-sharing-layer1-crenet-strony-internetowe-gdynia-stron5e4eaad2d39608.9019504615822138428667.png">   
+        <h1>Programação</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="contatos.html">Contato</a></li>
+            <li><a href="info.html">Informações</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Formulário</h2>
+        <hr>
+
+        <form action="">
+            <label for="formulario_nome">Nome:</label>
+            <input type="text" id="formulario_nome" placeholder="Digite seu Nome aqui.." required>
+            <br>
+            <label for="data">Data de Nascimento</label>
+            <input type="date" id="data" required>
+            <br>
+            <label for="formulario_email">Email:</label>
+               <input type="email" id="formulario_email" placeholder="Digite seu email aqui..." required>
+
+
+               <!--Inserir senha-->
+               <label for="formulario_senha">Senha:</label>
+               <input type="password" id="formulario_senha" placeholder="Digite sua senha..." required>
+               <br>
+
+
+               <!--Inserir Telefone-->
+               <label for="formulario_celular">Celular:</label>
+               <input type="tel" id="formulario_celular" placeholder="(xx) x xxxx-xxxx">
+               <fieldset>
+                <legend>Período de Estudo</legend>
+                <select name="estudos" id="estudos">
+                <option value="m">Manhã</option>
+                <option value="t">Tarde</option>
+                <option value="n">Noite</option>
+                </select>
+               </fieldset>
+               
+               <fieldset>
+
+                <legend>Qual a linguagem de Programação você usa?</legend>
+                <label class="label_opcao" for="opcao1"><input type="radio" name="linguagem" id="opcao1" checked>C++</label>
+                <label class="label_opcao" for="opcao2"><input type="radio" name="linguagem" id="opcao2" checked>JavaScript</label>
+                <label class="label_opcao" for="opcao3"><input type="radio" name="linguagem" id="opcao3" checked>Java</label>
+                <label class="label_opcao" for="opcao4"><input type="radio" name="linguagem" id="opcao4" checked>Python</label>
+                <label class="label_opcao" for="opcao5"><input type="radio" name="linguagem" id="opcao5" checked>C#</label>
+               </fieldset>
+               <input type="submit" id="evi" value="Enviar">
+
+            
+        </form>
+        
+    </section>

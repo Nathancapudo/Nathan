@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(255, 228, 196);
+    font-size: 2rem;
+}
+
+header {
+    margin: 0  ;
+    background-image: linear-gradient(to bottom left, red 45% , blue);
+    height: 300px;
+    padding: 0;
+}
+.img-container {
+    text-align: center;
+}
+header > h1 {
+    text-align: center;
+}
+img {
+    width: 230px;
+    margin-top: 20px;
+    }
+section {
+    background-color: bisque;
+    border: 3px solid black;
+    padding: 1% 3% 2%;
+    margin: 1% 1% auto;
+}
+section > li {
+    border: 3px solid black;
+}
+.freefa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.ff {
+    width: 15%;
+    margin: 1% 5% 2%;
+    text-align: center;
+    border: 3px solid black;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 2px 2px black, 6px 5px 6px rgb(156, 100, 209);
+}
+ul li {
+    display: inline-block;
+}
+nav {
+    background-color: rgba(76, 0, 255, 0.363);
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+nav > ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+nav > ul > li {
+    line-height: 1.3rem;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    transition: all 300ms;
+    display: block;
+}
+nav > ul > li > a:hover {
+    font-size: 1.8rem;
+    color: cadetblue;
+    transition: all 500ms;
+}
+footer > p {
+    margin-top: 2%;
+}
+table {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+}
+th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: black;
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+td {
+
+    padding: 10px;
+}
+#evi {
+    width: 125px;
+    line-height: 2.4rem;
+    background-image: linear-gradient(to bottom left, );
+}
+#estudos {
+    width: 12%;
+    margin-left: 1%;
+    padding: 2px;
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+}
+label {
+    font-size: 1.3rem;
+    margin-left: 1%;
+    margin-right: 0.5%;
+
+}
+#formulario_celular {
+    width: 13%;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    margin-top: 0.5%;
+}
+legend {
+    font-size: 1.3rem;
+    margin-left: 1%;
+}
+fieldset {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 6px;
+    width: 60%;
+}
